@@ -1,5 +1,4 @@
 package ru.mirea.task2;
-
 public class Shape {
 public static void main(String[] arg){
     Circle ob1 = new Circle(5);
