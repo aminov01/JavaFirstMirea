@@ -24,8 +24,7 @@ public class TimeZoneExample
 		Date dt_msk = null;
 
 		TimeZone tm_curr = TimeZone.getDefault();
-		System.out.println ("Current TimeZone : \"" + tm_curr.getID() + "\" (" +
-				tm_curr.getDisplayName() + ")");
+		System.out.println ("Current TimeZone : \"" + tm_curr.getID() + "\" (" + tm_curr.getDisplayName() + ")");
 		System.out.println ("useDaylightTime : " +  tm_curr.useDaylightTime() + "\n");
 
 		TimeZone tm_utc = TimeZone.getTimeZone(TIMEZONE_utc);

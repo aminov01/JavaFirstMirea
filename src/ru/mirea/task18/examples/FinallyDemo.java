@@ -38,7 +38,6 @@ class FinallyDemo {
         } catch (Exception e) {
             System.out.println("Исключение перехвачено");
         }
-
         procB();
         procC();
     }

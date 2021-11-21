@@ -31,8 +31,7 @@ public class TimeZoneList
     {
         TimeZone tz = TimeZone.getDefault();
         int rawOffset = tz.getRawOffset();
-        System.out.println("Текущая TimeZone : " + tz.getID() + 
-        		         " (" + tz.getDisplayName() + ")\n");
+        System.out.println("Текущая TimeZone : " + tz.getID() + " (" + tz.getDisplayName() + ")\n");
 
         // Display all available TimeZones
         System.out.println("Доступные TimeZone\n");
